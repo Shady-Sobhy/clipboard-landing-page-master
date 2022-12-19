@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: -600;
+  right: 0;
+  width: 100%;
+  z-index: -9000;
+}
+.logo {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.logo:hover {
+  scale: 101%;
+  opacity: 75%;
+}
+.footer-logo:hover {
+  scale: 101%;
+  opacity: 75%;
+}
+.tit {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+.para {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+.history-title {
+  font-size: 45px;
+  margin-bottom: 17px;
+}
+.history-paragraph {
+  width: 730px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+.first-btns button {
+  width: 225px;
+  height: 60px;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.856);
+  border-radius: 50px;
+  font-weight: 700;
+  margin-bottom: 180px;
+}
+
+.download-ios {
+  margin-right: 15px;
+  border-bottom: 2px solid hsl(171, 86%, 30%);
+  border-top: 0px solid black;
+  border-left: 0px solid black;
+  border-right: 0px solid black;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 0 20px hsla(171, 86%, 30%, 0.384);
+}
+.download-mac {
+  border-bottom: 2px solid hsl(233, 47%, 43%);
+  border-top: 0px solid black;
+  border-left: 0px solid black;
+  border-right: 0px solid black;
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 0 20px hsla(233, 44%, 33%, 0.411);
+}
+
+.Keep-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.Keep-paragraph {
+  width: 710px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+.quick-search {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 750px;
+}
+.quick-title,
+.iCloud-title,
+.Complete-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.quick-paragraph,
+.iCloud-paragraph,
+.Complete-paragraph {
+  width: 330px;
+  font-size: 15px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+.Access-title {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.Access-paragraph {
+  text-align: center;
+  width: 750px;
+  font-size: 18px;
+  margin-bottom: 100px;
+  line-height: 30px;
+}
+.Supercharge-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.Supercharge-paragraph {
+  text-align: center;
+  width: 750px;
+  font-size: 18px;
+  margin-bottom: 75px;
+  line-height: 30px;
+}
+.image-devices {
+  margin-bottom: 50px;
+}
+.workflow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.workflow .tit {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.workflow .para {
+  text-align: center;
+  width: 500px;
+  font-size: 18px;
+  margin-bottom: 75px;
+  line-height: 30px;
+}
+.left,
+.middle,
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  margin-bottom: 30px;
+}
+.companies {
+  margin-left: 250px;
+  place-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(6, 165px);
+  grid-template-rows: 50px;
+  gap: 75px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.Clipboard-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.Clipboard-paragraph {
+  text-align: center;
+  width: 700px;
+  font-size: 18px;
+  margin-bottom: 35px;
+  line-height: 30px;
+}
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -220px;
+  margin: auto;
+
+  background-color: rgba(190, 187, 187, 0.199);
+}
+.card {
+  margin: 50px 370px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 65px;
+}
+nav {
+  margin-right: 90px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px 50px;
+}
+.link {
+  font-size: 18px;
+  text-decoration: none;
+  color: hsla(210, 2%, 22%, 0.616);
+  font-weight: 400;
+}
+.social-meida {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85px;
+}
+.second-btns button {
+  width: 225px;
+  height: 60px;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.856);
+  border-radius: 50px;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+
+.second-btns button:hover {
+  cursor: pointer;
+  opacity: 75%;
+}
+.first-btns button:hover {
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.link:hover {
+  font-weight: bold;
+}
+
+.soical {
+  transition: 50ms;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.soical:hover {
+  scale: 110%;
+}
+.facebook,
+.twitter,
+.instagram {
+  display: inline-block;
+}
+
+.mac {
+  position: absolute;
+  right: 510px;
+}
